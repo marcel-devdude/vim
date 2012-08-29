@@ -74,6 +74,13 @@ autocmd BufNewFile,BufRead *.install set ft=php
 autocmd BufRead *.js set ts=2 sts=2 sw=2 expandtab
 autocmd BufRead *.php set ts=2 sts=2 sw=2 expandtab
 
+" show 2 status lines
+set laststatus=2
+
+" status line layout
+set stl=%t\ %m\ %r\ \ %y\ \ %{fugitive#statusline()}\ \ Zeile:\ %l/%L[%p%%]\ \ Spalte:\ %c\ \ Buffer:\ #%n%=%{strftime('%H:%M')}\ Uhr\ \ 
+
+
 "autocmd FileType php,html call FileType_XML()
 
 " Plugin Configuration
