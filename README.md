@@ -42,3 +42,10 @@ To enable 256 colors in terminal mode, install ncurses-term
 and place these lines into your .bashrc
 
     export TERM=xterm-256color
+
+
+Tagbar requires ctags, install it:
+
+    sudo apt-get install exuberant-ctags
+
+Install better PHP ctags index file generator: https://github.com/techlivezheng/phpctags and change path in settings.vim

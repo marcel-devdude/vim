@@ -1,6 +1,9 @@
 " Map NERDTreeTabsToggle to ,n
 map <Leader>n :NERDTreeTabsToggle<CR>
 
+" Map TagbarToggle to ,o
+map <Leader>o :TagbarToggle<CR>
+
 " next tab with ,t previous with ,g
 map <Leader>t gt<CR>
 map <Leader>g gT<CR>

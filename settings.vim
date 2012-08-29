@@ -81,8 +81,17 @@ set laststatus=2
 set stl=%t\ %m\ %r\ \ %y\ \ %{fugitive#statusline()}\ \ Zeile:\ %l/%L[%p%%]\ \ Spalte:\ %c\ \ Buffer:\ #%n%=%{strftime('%H:%M')}\ Uhr\ \ 
 
 
-"autocmd FileType php,html call FileType_XML()
+" autocmd FileType php,html call FileType_XML()
+autocmd Filetype php,html,xml source ~/.vim/bundle/closetag/plugin/closetag.vim
 
 " Plugin Configuration
 " startup NERDTree on every tab
 let g:nerdtree_tabs_open_on_console_startup=1
+
+" tagbar configuration
+let g:tagbar_usearrows=1
+let g:tagbar_width=30
+let g:tagbar_phpctags_bin="/opt/libraries/phpctags/phpctags"
+
+" autoopen tagbar on these filetypes
+autocmd FileType php nested :TagbarOpen
