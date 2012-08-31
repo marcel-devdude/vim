@@ -1,6 +1,13 @@
+# Install
+
+    cd ~
+    git clone --recursive https://github.com/marcel-devdude/vim.git .vim
+    ln -s .vim/vimrc .vimrc
+
+
 # Plugins
 
-See .gitmodules
+Look .gitmodules
 
 
 # Custom Keybindings
@@ -18,13 +25,6 @@ See .gitmodules
 - zz = Place current line at the center of window
 - e = Jump to the end of the next word
 - b = Jump to the begin of the prev word
-
-
-# Install
-
-    cd ~
-    git clone https://github.com/marcel-devdude/vim.git .vim
-    ln -s .vim/vimrc .vimrc
 
 
 # Important informations
