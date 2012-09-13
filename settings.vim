@@ -72,6 +72,8 @@ autocmd BufNewFile,BufRead *.module set ft=php
 autocmd BufNewFile,BufRead *.install set ft=php
 autocmd BufNewFile,BufRead *.scss set ft=scss
 autocmd BufNewFile,BufRead *.sass set ft=scss
+autocmd BufNewFile,BufRead *.json set ft=json
+autocmd BufNewFile,BufRead *.twig set ft=twig
 
 autocmd BufRead *.js set ts=2 sts=2 sw=2 expandtab
 autocmd BufRead *.php set ts=2 sts=2 sw=2 expandtab
