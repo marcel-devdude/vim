@@ -16,6 +16,7 @@ Look .gitmodules
 - ,t = next tab
 - ,g = prev tab
 - ,n = toggle NerdTree panel
+- ,o = toggle Output Window
 
 
 # Default Keybindings
@@ -49,3 +50,5 @@ Tagbar requires ctags, install it:
     sudo apt-get install exuberant-ctags
 
 Install better PHP ctags index file generator: https://github.com/techlivezheng/phpctags and change path in settings.vim
+
+For JavaScript ctags-support install DoctorJS: https://github.com/mozilla/doctorjs

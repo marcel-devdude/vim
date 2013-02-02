@@ -95,7 +95,7 @@ let g:nerdtree_tabs_open_on_console_startup=1
 " tagbar configuration
 let g:tagbar_usearrows=1
 let g:tagbar_width=30
-let g:tagbar_phpctags_bin="/opt/libraries/phpctags/phpctags"
+let g:tagbar_phpctags_bin="/opt/phpctags/phpctags"
 
 " autoopen tagbar on these filetypes
 autocmd FileType php nested :TagbarOpen

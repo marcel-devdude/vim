@@ -43,3 +43,6 @@
 [submodule "bundle/vim-twig"]
 	path = bundle/vim-twig
 	url = git://github.com/beyondwords/vim-twig.git
+[submodule "bundle/jslint.vim"]
+	path = bundle/jslint.vim
+	url = git://github.com/hallettj/jslint.vim.git
