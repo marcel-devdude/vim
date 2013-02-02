@@ -91,6 +91,7 @@ autocmd Filetype php,html,xml source ~/.vim/bundle/closetag/plugin/closetag.vim
 " Plugin Configuration
 " startup NERDTree on every tab
 let g:nerdtree_tabs_open_on_console_startup=1
+autocmd vimenter * NERDTree
 
 " tagbar configuration
 let g:tagbar_usearrows=1
